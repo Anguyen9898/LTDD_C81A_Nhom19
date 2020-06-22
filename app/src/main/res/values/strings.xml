@@ -1,0 +1,59 @@
+<resources>
+
+    <string name="app_name">Forecast 360</string>
+
+    <string name="clear_sky">Clear Sky</string>
+
+    <!-- Dialog General Strings -->
+    <string name="general_positive_button">OK</string>
+    <string name="general_negative_button">Cancel</string>
+
+    <!--Internet Error Dialog String-->
+    <string name="internet_error_title">Internet Error!</string>
+    <string name="internet_error_message">Do you want to go to wifi setting?</string>
+
+    <!-- General Error Title -->
+    <string name="general_error_title">Oops! Something went wrong while getting data</string>
+
+    <!-- General Error Message -->
+    <string name="general_error_message">Please try again later.</string>
+
+    <!-- Weather Api Error Message -->
+    <string name="weather_api_error_message">Sorry for this inconvenience. It will be fixed as soon as possible!</string>
+
+    <string name="hint_search">Search here</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="menu_search_edt">Search</string>
+    <string name="menu_txt_cancel">Cancel</string>
+    <string name="txt_city_selector_title">Enter your city name</string>
+    <string name="none_city_message">Click here to add new city\'s weather information</string>
+
+    <!-- Database Error Message -->
+    <string name="id_conflict">"You've choose it already"</string>
+    <string name="empty_database">"Something went wrong with your data"</string>
+
+    <string name="txt_daily">Next7Days</string>
+    <string name="txt_detail">Details</string>
+    <string name="txt_sunrise">Sunrise</string>
+    <string name="txt_real_feel">RealFeel </string>
+    <string name="txt_slash">/</string>
+    <string name="txt_cloudiness">Cloudiness</string>
+    <string name="txt_setting">WEATHER SETTINGS</string>
+    <string name="txt_unit">Unit</string>
+    <string name="txt_about">About</string>
+    <string name="txt_metric">°C</string>
+    <string name="txt_imperial">°F</string>
+    <string name="txt_reorder">Reorder</string>
+    <string name="txt_about_bottom"><![CDATA[Based on WeatherForecast apps which is supported by Open Weather & Git hub (Study purpose only)]]></string>
+    <string name="txt_about_copyright">This is demo version create and develop by Anguyen</string>
+    <string name="txt_version">Version 1.0</string>
+    <string name="txt_app_info">APP INFO</string>
+    <string name="txt_api_source"><u>Open source api</u></string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_exit">Exit</string>
+    <string name="txt_hourly">Hourly</string>
+    <string name="txt_reoder_setting">REODER SETTING</string>
+    <string name="txt_change">Change</string>
+    <string name="txt_weather_s_detail">Weather\'s Detail</string>
+
+</resources>

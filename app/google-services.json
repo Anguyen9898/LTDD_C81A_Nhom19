@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "291745638315",
+    "firebase_url": "https://weatherforecast-97fc4.firebaseio.com",
+    "project_id": "weatherforecast-97fc4",
+    "storage_bucket": "weatherforecast-97fc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291745638315:android:4ad1c50659597a4ca314ee",
+        "android_client_info": {
+          "package_name": "com.anguyen.weatherforecast_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291745638315-36a0515tajcv4n054h2bvd22pu1g5de0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anguyen.weatherforecast_demo",
+            "certificate_hash": "588d936e21edb1e2a9218aff91d8989e38200e55"
+          }
+        },
+        {
+          "client_id": "291745638315-e7ncljpntg0ehubcuqiop176cmbh9and.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8HPgXnBBiSBTqO_hu-B3IQhy5Oc-7w-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291745638315-e7ncljpntg0ehubcuqiop176cmbh9and.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anguyen.weatherforecast_demo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/main_logo"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".uis.reoders.ReorderActivity"></activity>
+        <activity android:name=".uis.starts.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".uis.abouts.AboutActivity" />
+        <activity android:name=".uis.setting.SettingActivity" />
+        <activity android:name=".uis.selectedcities.SelectedCitiesActivity" />
+        <activity android:name=".uis.mains.MainActivity" />
+    </application>
+
+</manifest>

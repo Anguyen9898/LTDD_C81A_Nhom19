@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorSearchView">#e0e0d1</color>
+    <color name="halfTrans">#7F000000</color>
+    <color name="colorSetting">#80bfff</color>
+    <color name="colorMainMenu">#00004d</color>
+    <color name="colorMain">#265463</color>
+    <color name="colorHyperlink">#0080ff</color>
+</resources>
