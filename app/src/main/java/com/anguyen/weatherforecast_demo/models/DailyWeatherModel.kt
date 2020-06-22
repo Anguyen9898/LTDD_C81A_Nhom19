@@ -6,19 +6,19 @@ import com.google.gson.JsonPrimitive
 
 data class DailyWeatherModel(
     var dt: JsonPrimitive? = null,
-    var sunrise: JsonPrimitive? = null,
-    var sunset: JsonPrimitive? = null,
     var temp: JsonObject? = null,
-    var realFeel: JsonObject? = null,
-    var pressure: JsonPrimitive? = null,
-    var humidity: JsonPrimitive? = null,
-    var dewPoint: JsonPrimitive? = null,
-    var windSpeed: JsonPrimitive? = null,
-    var windDeg: JsonPrimitive? = null,
-    var weather: JsonArray? = null,
-    var clouds: JsonPrimitive? = null,
+    var weather: JsonArray? = null
+    //var sunrise: JsonPrimitive? = null,
+    //var sunset: JsonPrimitive? = null,
+    //var realFeel: JsonObject? = null,
+    //var pressure: JsonPrimitive? = null,
+   // var humidity: JsonPrimitive? = null,
+    //var dewPoint: JsonPrimitive? = null,
+    //var windSpeed: JsonPrimitive? = null,
+    //var windDeg: JsonPrimitive? = null,
+    //var clouds: JsonPrimitive? = null
     //var rain: JsonPrimitive? = null,
-    var uvi: JsonPrimitive? = null
+    //var uvi: JsonPrimitive? = null
 ){
     companion object {
 
@@ -32,19 +32,19 @@ data class DailyWeatherModel(
                 dailyDetails.add(
                     DailyWeatherModel(
                         dailyElement["dt"].asJsonPrimitive,
-                        dailyElement["sunrise"].asJsonPrimitive,
-                        dailyElement["sunset"].asJsonPrimitive,
                         dailyElement["temp"].asJsonObject,
-                        dailyElement["feels_like"].asJsonObject,
-                        dailyElement["pressure"].asJsonPrimitive,
-                        dailyElement["humidity"].asJsonPrimitive,
-                        dailyElement["dew_point"].asJsonPrimitive,
-                        dailyElement["wind_speed"].asJsonPrimitive,
-                        dailyElement["wind_deg"].asJsonPrimitive,
-                        dailyElement["weather"].asJsonArray,
-                        dailyElement["clouds"].asJsonPrimitive,
+                        dailyElement["weather"].asJsonArray
+                       // dailyElement["sunrise"].asJsonPrimitive,
+                        //dailyElement["sunset"].asJsonPrimitive,
+                        //dailyElement["feels_like"].asJsonObject,
+                        //dailyElement["pressure"].asJsonPrimitive,
+                       // dailyElement["humidity"].asJsonPrimitive,
+                       // dailyElement["dew_point"].asJsonPrimitive,
+                        //dailyElement["wind_speed"].asJsonPrimitive,
+                        //dailyElement["wind_deg"].asJsonPrimitive,
+                       //dailyElement["clouds"].asJsonPrimitive
                         //dailyElement["rain"].asJsonPrimitive,
-                        dailyElement["uvi"].asJsonPrimitive
+                        //dailyElement["uvi"].asJsonPrimitive
                     )
                 )
 
